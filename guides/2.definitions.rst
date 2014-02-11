@@ -285,9 +285,8 @@ When you run your feature, you'll get 2 undefined steps that are marked yellow:
 
 .. note::
 
-    All steps following an undefined step are not executed, as the
-    behavior following it is unpredictable. These steps are marked as
-    **skipped**.
+    The steps following an undefined step are not executed and marked as
+    **skipped**, because their behavior is unpredictable.
 
 .. tip::
 
@@ -336,9 +335,8 @@ When you run your feature, you'll get 1 pending step that is marked yellow:
 
 .. note::
 
-    All steps following a pending step are not executed, as the
-    behavior following it is unpredictable. These steps are marked as
-    **skipped**.
+    The steps following a pending step are not executed and marked as
+    **skipped**, because their behavior is unpredictable.
 
 .. tip::
 
@@ -386,10 +384,8 @@ When you run your feature, you'll get 1 failing step that is marked red:
     your console.
 
 .. note::
-
-    All steps following a failed step are not executed, as the
-    behavior following it is unpredictable. These steps are marked as
-    **skipped**.
+    The steps following a failed step are not executed and marked as **skipped**,
+    because their behavior is unpredictable.
 
 .. tip::
 
